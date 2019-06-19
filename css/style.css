@@ -1,0 +1,61 @@
+.background{
+    background-color: #5E740B;
+}
+.flex-wrap{
+    display: flex;
+}
+.input-size{
+    width: 200px;
+}
+.margin-top{
+    margin-top: 25px !important;
+}
+.margin-top-vol-2{
+    margin-top: 15px !important;
+}
+.box{
+    width: 10px;
+    height: 10px;
+    background-color: #123321;
+    border: 2px solid #1B5Eff;
+}
+.chosenMethod{
+    margin-bottom: 20px;
+}
+p{
+    width: 50px;
+    height: 50px;
+    margin-left: 90px;
+}
+.red{
+    width: 10px;
+    height: 10px;
+    background-color: #ff0011;
+    border: 1px solid #4f4f4f;
+}
+.green{
+    width: 10px;
+    height: 10px;
+    background-color: #123321;
+    border: 1px solid #4f4f4f;
+}
+.white{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 1px solid #4f4f4f;
+}
+.blue{
+    width: 10px;
+    height: 10px;
+    background-color: #1a237e;
+    border: 1px solid #4f4f4f;
+}
+/*.chosenMethod{*/
+    /*-webkit-transform: scaleX(1);*/
+    /*transform: scaleX(1) !important;*/
+    /*transform: rotateY(180deg) !important;*/
+    /*transform: rotate(90deg); !* Standard syntax *!*/
+    /*margin-top: 60vh;*/
+    /*transform: scaleX(-1);*/
+/*}*/

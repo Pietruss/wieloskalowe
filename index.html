@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <!--<div class="row">-->
+    <!--<div class="col s12">-->
+    <!--<h2>-->
+    <!--Automaty 1D-->
+    <!--</h2>-->
+    <!--<div class="input-field col s3">-->
+    <!--<input placeholder="Size of row" id="rowSize" type="text" class="validate">-->
+    <!--</div>-->
+    <!--<div class="input-field col s3">-->
+    <!--<input placeholder="Amount of steps" id="stepsSize" type="text" class="validate">-->
+    <!--</div>-->
+    <!--<div class="col s3 flex-wrap margin-top-vol-2">-->
+    <!--<p>-->
+    <!--<label>-->
+    <!--<input type="radio" name="group1" id="button30" value="30" />-->
+    <!--<span>30</span>-->
+    <!--</label>-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--<label>-->
+    <!--<input id="button60" name="group1" type="radio" value="60"/>-->
+    <!--<span>60</span>-->
+    <!--</label>-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--<label>-->
+    <!--<input id="button90" name="group1" type="radio" value="90"/>-->
+    <!--<span>90</span>-->
+    <!--</label>-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--<label>-->
+    <!--<input id="button120" name="group1" type="radio" value="120"/>-->
+    <!--<span>120</span>-->
+    <!--</label>-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--<label>-->
+    <!--<input id="button225" name="group1" type="radio" value="225" />-->
+    <!--<span>225</span>-->
+    <!--</label>-->
+    <!--</p>-->
+    <!--</div>-->
+    <!--<a id="myBtn" class="waves-effect margin-top waves-light btn col s2 offset-s10">Submit</a>-->
+    <!--</div>-->
+    <!--</div>-->
+
+
+    <!--<h2>-->
+    <!--Gra w życie-->
+    <!--</h2>-->
+    <!--<div class="row">-->
+    <!--<div class="col s12">-->
+    <!--<div class="input-field col s3">-->
+    <!--<input placeholder="Size of row" id="rowSizeForGame" type="text" class="validate">-->
+    <!--</div>-->
+    <!--<div class="input-field col s3">-->
+    <!--<input placeholder="Amount of steps" id="stepsSizeForGame" type="text" class="validate">-->
+    <!--</div>-->
+    <!--<div class="input-field col s3">-->
+    <!--<input placeholder="yCoordinate" id="xCoordinate" type="text" class="validate">-->
+    <!--</div>-->
+    <!--<div class="input-field col s3">-->
+    <!--<input placeholder="xCoordinate" id="yCoordinate" type="text" class="validate">-->
+    <!--</div>-->
+    <!--<div class="input-field col s2">-->
+    <!--<input placeholder="number of iteration" id="numberOfIteration" type="text" class="validate">-->
+    <!--</div>-->
+    <!--<div class="input-field col s2">-->
+    <!--<input placeholder="Number of points" id="amountOfPointToDisplay" type="text" class="validate">-->
+    <!--</div>-->
+    <!--<div class="col s8 flex-wrap margin-top-vol-2">-->
+    <!--<p>-->
+    <!--<label>-->
+    <!--<input type="radio" name="group1" id="constant" value="constant" />-->
+    <!--<span>constant</span>-->
+    <!--</label>-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--<label>-->
+    <!--<input id="glider" name="group1" type="radio" value="glider"/>-->
+    <!--<span>glider</span>-->
+    <!--</label>-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--<label>-->
+    <!--<input id="manualDefinition" name="group1" type="radio" value="manualDefinition"/>-->
+    <!--<span>manual</span>-->
+    <!--</label>-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--<label>-->
+    <!--<input id="oscillator" name="group1" type="radio" value="oscillator"/>-->
+    <!--<span>oscillator</span>-->
+    <!--</label>-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--<label>-->
+    <!--<input id="random" name="group1" type="radio" value="random" />-->
+    <!--<span>random</span>-->
+    <!--</label>-->
+    <!--</p>-->
+    <!--</div>-->
+    <!--<a id="myBtnGame" class="waves-effect margin-top waves-light btn col s2 offset-s4">Submit</a>-->
+
+    <!--<div id="chosenMethodGame" class="chosenMethod flex-wrap">-->
+
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--</div>-->
+
+    <h2>
+        grain growth
+    </h2>
+
+    <div class="row">
+        <div class="col s12">
+            <div class="input-field col s3">
+                <input placeholder="Size of row" id="rowSizeForGrowing" type="text" class="validate">
+            </div>
+            <div class="input-field col s3">
+                <input placeholder="Amount of steps" id="stepsSizeForGrowing" type="text" class="validate">
+            </div>
+            <div class="input-field col s3">
+                <input placeholder="number of points in column" id="numberOfRowsToGrow" type="text"
+                       class="validate">
+            </div>
+            <div class="input-field col s3">
+                <input placeholder="number of points in rows" id="numberOfColumnsToGrow" type="text"
+                       class="validate">
+            </div>
+            <div class="input-field col s2">
+                <input placeholder="Number of points" id="amountOfPointToDisplayForGrowing" type="text"
+                       class="validate">
+            </div>
+            <div class="col s12 flex-wrap margin-top-vol-2">
+                <p>
+                    <label>
+                        <input type="radio" name="group1" id="jednorodne" value="jednorodne"/>
+                        <span>homogeneous</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input id="randomGrowing" name="group1" type="radio" value="randomGrowing"/>
+                        <span>random</span>
+                    </label>
+                </p>
+
+            </div>
+            <div class="col s12 flex-wrap margin-top-vol-2">
+                <p>
+                    <label>
+                        <input id="absorb" name="group1" type="checkbox" value="absorb"/>
+                        <span>absorb</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input id="period" name="group1" type="checkbox" value="period"/>
+                        <span>period</span>
+                    </label>
+                </p>
+            </div>
+
+            <div class="col s12 flex-wrap margin-top-vol-2">
+                <p>
+                    <label>
+                        <input id="vonNeuman" name="group1" type="checkbox" value="vonNeuman"/>
+                        <span>vonNeuman</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input id="Moore" name="group1" type="checkbox" value="Moore"/>
+                        <span>Moore</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input id="penta" name="group1" type="checkbox" value="penta"/>
+                        <span>pentagonal</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input id="heksa" name="group1" type="checkbox" value="heksa"/>
+                        <span>heksagonal</span>
+                    </label>
+                </p>
+            </div>
+
+
+            <div class="col s12 flex-wrap margin-top-vol-2">
+                <p>
+                    <label>
+                        <input id="left" name="group1" type="checkbox" value="left"/>
+                        <span>left</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input id="right" name="group1" type="checkbox" value="right"/>
+                        <span>right</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input id="randomHeksa" name="group1" type="checkbox" value="randomHeksa"/>
+                        <span>random</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input id="monteCarlo" name="group1" type="checkbox" value="monteCarlo"/>
+                        <span>monteCarlo</span>
+                    </label>
+                </p>
+
+            </div>
+
+            <a id="myBtnGrowing" class="waves-effect margin-top waves-light btn col s2 offset-s4">Submit</a>
+
+        </div>
+    </div>
+    <div id="chosenMethod" class="chosenMethod flex-wrap">
+    </div>
+</div>
+
+
+<script src="js/main.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
